@@ -22,6 +22,7 @@ public class UomController {
 	//1. show Register Page
 	@GetMapping("/register")
 	public String showReg() {
+		System.out.println("This is register page");
 		return "UomRegister";
 	}
 	
